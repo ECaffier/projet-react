@@ -50,10 +50,8 @@ p{
 }
 
 main{
-  height: 80vh;
+  height: 100vh;
   background : linear-gradient(#282c34, #455e89, #2e6f95, #5c4d7d, #723c70, #892b64, #a01a58);
   /* background : linear-gradient(#282c34,#4f545e,#282c34); */
 }
-.margeee{
-  margin-left: 5vw;
-}
+
