@@ -5,7 +5,7 @@ import Cartes from "./list/List"
 function Home(){
   const CARACS =["Name", "Height", "mass", "films"]
   return(
-      <Cartes  caracs={CARACS} />
+      <Cartes caracs={CARACS} />
       
   )
 }

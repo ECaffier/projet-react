@@ -8,13 +8,13 @@ import {
 
 function Nav(){
     return(
-        <nav className="grey-color pb-5">
+        <nav className="grey-color p-5">
             <ul className="nav">
                 <li className="nav-item">
-                    <Link className="nav-link grey-color" to="/home">Home</Link>
+                    <Link className="nav-link grey-color linkBlueHover" to="/home">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link grey-color" to="/recherche">Rechercher</Link>
+                    <Link className="nav-link grey-color linkRedHover" to="/recherche">Rechercher</Link>
                 </li>
             </ul>
         </nav>
