@@ -72,3 +72,9 @@ main{
 .linkBlueHover:hover{
   color:#ACCBE1;
 }
+
+/*Research page */
+
+.marginSearch{
+  margin-left : 5vw;
+}
