@@ -1,10 +1,14 @@
 import Card from "react-bootstrap/Card"
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 
 function Cartes(props){
     let caracs = props.caracs.map((carac) => 
-        <div >
-            <Card className="card-body grey-color mb-5 box" style={{flex:'1', width: '18rem', height:'10rem' }}>{carac}
+        <div className="col-4">
+            <Card className="card-body grey-color mb-5 text-center" style={{flex:'1', width: '18rem', height:'10rem' }}> {carac}
             <Card.Body >
             <Card.Text>pppp</Card.Text>
             </Card.Body>
@@ -12,12 +16,16 @@ function Cartes(props){
         </div>
     );
     return (
-        <div className="grid">
-            {caracs}
-        </div>
+        <Container>
+            <Row className="card-adjust"> {caracs}</Row>          
+        </Container>
 
     );
 }
+
+export default Cartes;
+
+
 
 // function Home(){w
 //     return(
@@ -31,4 +39,3 @@ function Cartes(props){
 //       </div>
 //     );
 // }
-export default Cartes;

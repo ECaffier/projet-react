@@ -14,10 +14,10 @@ import {
 
 function App() {
   return (
-    <div className="ppp">
+    <div >
       <Header />
       <Router>
-      <Nav />
+      <Nav/>
       <main>
         <Switch>
           <Route path="/home">
@@ -26,9 +26,7 @@ function App() {
           <Route path ="/recherche">
             <Recherche />
           </Route>
-
-        </Switch>
-        
+        </Switch>       
       </main>
       </Router>
       <Footer />

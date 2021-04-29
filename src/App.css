@@ -39,6 +39,9 @@
 
 
 /* Personnal CSS*/
+Header{
+  font-family: 'Fredericka the Great', cursive;
+}
 
 p{
   color:#ffe436;
@@ -55,3 +58,23 @@ main{
   /* background : linear-gradient(#282c34,#4f545e,#282c34); */
 }
 
+.page-footer{
+  height: 10vh;
+}
+.card-adjust{
+  padding-top: 5vh;
+  /* background-color: #817E9F; */
+}
+
+.linkRedHover:hover{
+  color:#D05353;
+}
+.linkBlueHover:hover{
+  color:#ACCBE1;
+}
+
+/*Research page */
+
+.marginSearch{
+  margin-left : 5vw;
+}
