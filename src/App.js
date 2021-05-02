@@ -3,6 +3,8 @@ import Nav from "./components/layout/nav/Nav"
 import Footer from "./components/layout/footer/Footer"
 import Recherche from "./components/recherche/Recherche"
 import Home from "./components/home/Home"
+import Detail from './components/home/detail/Detail'
+import Swapi from "./components/home/swapi/Swapi"
 import './App.css';
 import React from "react";
 import {
@@ -26,6 +28,10 @@ function App() {
           <Route path ="/recherche">
             <Recherche />
           </Route>
+          <Route path ="/detail">
+            <Detail />
+          </Route>
+          
         </Switch>       
       </main>
       </Router>
